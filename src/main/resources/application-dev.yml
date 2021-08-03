@@ -1,0 +1,32 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 2000
+  servlet:
+    context-path: /basedecode
+
+#sftp:
+#  srcHost: 198.1.1.12
+#  srcPort: 22
+#  srcUsername: d5000
+#  srcPassword: ycpw.0503
+#  destHost: 198.1.1.4
+#  destPort: 22
+#  destUsername: d5000
+#  destPassword: ycpw.0503
+#  srcDataPath: /home/d5000/yinchuan/data/svg_data/
+#  targetDataPath: /home/d5000/yinchuan/data/svg_data/
+
+sftp:
+  srcHost: 198.31.1.10
+  srcPort: 22
+  srcUsername: d5000
+  srcPassword: root.2020
+  destHost: 198.31.1.4
+  destPort: 22
+  destUsername: d5000
+  destPassword: root.2020
+  srcDataPath: /home/d5000/shizuishan/data/svg_data/
+  targetDataPath: /home/d5000/shizuishan/data/svg_data/

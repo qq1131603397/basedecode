@@ -1,0 +1,20 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 1000
+    min-spare-threads: 30
+  port: 2000
+  servlet:
+    context-path: /basedecode
+
+sftp:
+  srcHost: 172.16.21.249
+  srcPort: 22
+  srcUsername: tmwj0
+  srcPassword: 1qaz@WSX
+  destHost: 172.16.21.249
+  destPort: 22
+  destUsername: tmwj0
+  destPassword: 1qaz@WSX
+  srcDataPath: /ningxia/src/
+  targetDataPath: /ningxia/target/
